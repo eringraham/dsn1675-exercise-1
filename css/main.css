@@ -40,17 +40,29 @@ img {
     color: white;
     position: absolute;
     text-align: left;
+    bottom: 0;
+    font-family: serif;
+    font-style: italic;
+    font-size: 1em;
+    background-color: rgba(0,0,0,0.3);
 }
 
 .title {
     font-size: 1em;
     color: black;
+    
 }
 
 .info {
     display: inline-block;
-    width: 30%;
+    width: 33.333%;
+    padding: 1em;
     float: left;
+    border-right: 1px solid #ccc;
+}
+
+.info last child {
+    border: 0;
 }
 
 .chart {
